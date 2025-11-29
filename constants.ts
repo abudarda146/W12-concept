@@ -8,11 +8,37 @@ export const WALLPAPERS = {
   [SystemMode.SOCIAL]: 'https://images.unsplash.com/photo-1529156069898-49953e39b3ac?q=80&w=2832&auto=format&fit=crop', // People/Connection
 };
 
-export const MOCK_GAMES: Game[] = [
-  { id: '1', title: 'Cyber Odyssey 2077', coverUrl: 'https://picsum.photos/300/400?random=1', rating: 4.8 },
-  { id: '2', title: 'Starfield Horizons', coverUrl: 'https://picsum.photos/300/400?random=2', rating: 4.5 },
-  { id: '3', title: 'Elden Ring: Shattered', coverUrl: 'https://picsum.photos/300/400?random=3', rating: 4.9 },
-  { id: '4', title: 'Apex Legends Mobile', coverUrl: 'https://picsum.photos/300/400?random=4', rating: 4.2 },
-  { id: '5', title: 'Forza Street', coverUrl: 'https://picsum.photos/300/400?random=5', rating: 4.0 },
-  { id: '6', title: 'Valorant Go', coverUrl: 'https://picsum.photos/300/400?random=6', rating: 4.6 },
+export const BROWSER_GAMES: Game[] = [
+  { 
+    id: 'tictactoe', 
+    title: 'Neon Tic-Tac-Toe', 
+    description: 'Classic strategy with a cyberpunk twist.',
+    coverUrl: 'https://images.unsplash.com/photo-1611162617474-5b21e879e113?q=80&w=1000&auto=format&fit=crop', 
+    rating: 4.5,
+    type: 'internal'
+  },
+  { 
+    id: 'memory', 
+    title: 'Cyber Memory Matrix', 
+    description: 'Test your cognitive recall in the grid.',
+    coverUrl: 'https://images.unsplash.com/photo-1620912189868-30778f281e01?q=80&w=1000&auto=format&fit=crop', 
+    rating: 4.8,
+    type: 'internal'
+  },
+  { 
+    id: 'snake', 
+    title: 'Holo Snake', 
+    description: 'Navigate the grid, collect energy, grow longer.',
+    coverUrl: 'https://images.unsplash.com/photo-1628277613967-6ab5814525b9?q=80&w=1000&auto=format&fit=crop', 
+    rating: 4.7,
+    type: 'internal'
+  },
+  { 
+    id: 'shooter', 
+    title: 'Space Defender', 
+    description: 'Defend your sector from incoming debris.',
+    coverUrl: 'https://images.unsplash.com/photo-1614726365206-3f140656a956?q=80&w=1000&auto=format&fit=crop', 
+    rating: 4.6,
+    type: 'internal'
+  }
 ];

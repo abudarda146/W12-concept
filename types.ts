@@ -29,6 +29,8 @@ export interface Notification {
 export interface Game {
   id: string;
   title: string;
+  description: string;
   coverUrl: string;
   rating: number;
+  type: 'internal' | 'external';
 }
